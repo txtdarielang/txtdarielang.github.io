@@ -11,13 +11,9 @@ header {
   z-index: 10;
 }
 
-.logo {
-  width: 120px;
-  margin-top: 25px;
-}
-
 .header-left {
   float: left;
+  color: white;
 }
 
 .header-right {
