@@ -1,0 +1,142 @@
+/* Responsive */
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    /* Header */
+    header .container { flex-direction: column; }
+  
+    .header-left {
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .header-right {
+        margin-bottom: 8px;
+        justify-content: space-around;
+    }
+  
+    .header-right a {
+        padding: 8px;
+        font-size: 12px;
+    }
+  
+    header .container .menu-icon {
+        display: flex;
+        font-size: 18px;
+    }
+    /* Akhir Header */
+    /* Main */
+    .top-wrapper {
+        padding-top: 150px;
+        text-align: justify;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    
+    .top-wrapper p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .btn { width: 100%; }
+  
+    .lesson { width: 100%; }
+    /* Akhir Main */
+    /* Footer */
+    footer { text-align: center; }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    /* Header */
+    header .container { flex-direction: column; }
+  
+    .header-left {
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .header-right {
+        margin-bottom: 8px;
+        justify-content: space-around;
+    }
+  
+    .header-right a {
+        padding: 8px;
+        font-size: 16px;
+    }
+  
+    header .container .menu-icon {
+        display: flex;
+        font-size: 18px;
+    }
+    /* Akhir Header */
+    /* Main */
+    .top-wrapper {
+        padding-top: 150px;
+        text-align: center;
+    }
+
+    .top-wrapper h1 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+    
+    .top-wrapper p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .btn { width: 50%; }
+  
+    /* .lesson { width: 100%; } */
+    /* Akhir Main */
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    /* Header */
+    header .container { flex-direction: row; }
+
+    .header-left h1 {
+        font-size: 30px;
+    }
+
+    .header-right { margin-bottom: 0; }
+
+    .header-right a { padding: 25px; }
+
+    header .container .menu-icon {
+        display: none;
+    }
+    /* Akhir Header */
+    /* Main */
+    .top-wrapper h1 {
+        font-size: 40px;
+    }
+
+    .btn { width: auto; }
+    /* Akhir Main */
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    /* Main */
+    .top-wrapper h1 {
+        font-size: 45px;
+    }
+
+    .btn { width: auto; }
+    /* Akhir Main */
+  }
+  /* Akhir Responsive */

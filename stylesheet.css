@@ -3,35 +3,56 @@
 }
 
 header {
-  height: 65px;
+  /* height: 65px; */
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
   position :fixed;
   top: 0;
   z-index: 10;
+  display: flex;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-left {
-  float: left;
+  /* float: left; */
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-right {
-  float: right;
-  margin-right: -25px;
+  /* float: right; */
+  /* margin-right: -25px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .header-right a {
-  line-height: 65px;
-  padding: 0 25px;
+  /* line-height: 65px; */
+  /* padding: 25px; */
   color: white;
-  display: block;
-  float: left;
+  /* display: block; */
+  /* float: left; */
   transition: all 0.5s;
 }
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+header .container .menu-icon {
+  color: white;
+  /* float: right; */
+  font-size: 25px;
+  /* padding: 21px 0; */
+  display: none;
 }
 
 body {
@@ -66,14 +87,14 @@ a {
 
 .top-wrapper h1 {
   color: #D4ECDD;
-  font-size: 45px;
+  /* font-size: 45px; */
   letter-spacing: 5px;
   margin-bottom: 3px;
   font-weight: bold;
 }
 
 .top-wrapper p {
-  
+  opacity: 0.9;
   margin-bottom: 3px;
 }
 
@@ -173,3 +194,16 @@ a {
   font-size: 13px;
  }
 
+/* Animasi */
+header .header-left h1, .menu-icon {
+  animation-name: warna-p-h;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes warna-p-h {
+  0%   {color: white;}
+  25%  {color: rgb(143, 219, 159);}
+  50%  {color: rgb(143, 219, 159);}
+  100% {color: white;}
+}
