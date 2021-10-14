@@ -16,6 +16,10 @@ header {
   color: white;
 }
 
+.header-left h1 {
+  margin-top : 10px;
+}
+
 .header-right {
   float: right;
   margin-right: -25px;
@@ -146,7 +150,6 @@ a {
 }
 
 
-/*Akhir bagian Main*/
 
 .container {
   max-width: 1170px;
