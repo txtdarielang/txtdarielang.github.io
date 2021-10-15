@@ -46,7 +46,7 @@ header .container {
   /* display: block; */
   /* float: left; */
   transition: all 0.5s;
-  font-family: cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header-right a:hover {
@@ -63,7 +63,7 @@ header .container .menu-icon {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -205,12 +205,12 @@ a {
 .konten{
   float: left;
   padding: 50px;
-  font-family:serif;
+  font-family: 'Roboto', sans-serif;
   text-align: left;
 }
 
 .konten p{
-  font-family: cursive;
+  font-family: 'Poppins', sans-serif;
   font-weight: normal;
 }
 /*Konten End*/
