@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  /* height: 65px; */
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  padding-left: 20px;
+  float: left;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left h1 {
+  margin-top : 10px;
+}
+
+.header-right {
+  /* float: right; */
+  /* margin-right: -25px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.header-right a {
+  /* line-height: 65px; */
+  /* padding: 25px; */
+  color: white;
+  /* display: block; */
+  /* float: left; */
+  transition: all 0.5s;
+  font-family: cursive;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+header .container .menu-icon {
+  color: white;
+  /* float: right; */
+  font-size: 25px;
+  /* padding: 21px 0; */
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container h2{
+  color: darkgoldenrod;
+}
+
+/* Bagian Main*/
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  background-image: url(../image/Pexels.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 650px;
+}
+
+
+.top-wrapper h1 {
+  color: #D4ECDD;
+  /* font-size: 45px; */
+  letter-spacing: 5px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.aboutme {
+  background-color: #345B63;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/*lesson Wrapper*/
+.lesson-wrapper {
+  /* height: 500px; */
+  padding-bottom: 40px;
+  background-color: rgb(56, 56, 56, 90%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.lesson-wrapper .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: black;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lessons {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.lesson {
+  width: 50%;
+  /* padding: 20px 0; */
+  /* border-top: 1px solid #D4ECDD ; */
+  /* float: left; */
+  /* width: 20%; */
+}
+
+.lesson-icon {
+  /* position: static; */
+}
+
+.lesson-icon p {
+  /* top: 90px; */
+  width: 100%;
+  color: darkgoldenrod;
+  font-weight: bold;
+  /* padding-bottom: 0.5px; */
+}
+
+.image{
+  /* padding-bottom: 0.5px; */
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 0.5px;
+  font-size: 15px;
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+
+/*Konten*/
+.konten{
+  float: left;
+  padding: 50px;
+  font-family:serif;
+  text-align: left;
+}
+
+.konten p{
+  font-family: cursive;
+  font-weight: normal;
+}
+/*Konten End*/
+
+.container {
+  max-width: 1170px;
+  padding: 0 20px;
+  margin: 0 auto;
+ }
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  text-align : center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Animasi */
+header .header-left h1, .menu-icon {
+  animation-name: warna-p-h;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes warna-p-h {
+  0%   {color: #D4ECDD;}
+  25%  {color: rgb(143, 219, 159);}
+  50%  {color: rgb(143, 219, 159);}
+  100% {color: #D4ECDD;}
+}

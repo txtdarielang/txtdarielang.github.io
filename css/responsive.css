@@ -1,5 +1,4 @@
-/* Responsive */
- /* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
     /* Header */
     header .container { flex-direction: column; }
@@ -45,8 +44,19 @@
     }
 
     .btn { width: 100%; }
-  
-    .lesson { width: 100%; }
+
+    /* Lesson */
+    .lessons {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .lesson {
+        padding: 20px 0;
+        border-top: 1px solid #D4ECDD ;
+    }
+    /* Akhir Lesson */
+
     /* Akhir Main */
     /* Footer */
     footer { text-align: center; }
@@ -99,7 +109,19 @@
 
     .btn { width: 50%; }
   
-    /* .lesson { width: 100%; } */
+    /* Lesson */
+    .lessons {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .lesson {
+        padding: 20px 0;
+        border-top: 1px solid #D4ECDD ;
+    }
+    /* Akhir Lesson */
+
     /* Akhir Main */
   }
 
@@ -126,6 +148,10 @@
     }
 
     .btn { width: auto; }
+
+    /* Lesson */
+    /* Akhir Lesson */
+
     /* Akhir Main */
   }
   
@@ -137,6 +163,18 @@
     }
 
     .btn { width: auto; }
+
+    .lessons {
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* justify-content: space-around; */
+    }
+
+    .lesson {
+        padding: 20px 0;
+        border-top: 0px solid #D4ECDD ;
+    }
+
     /* Akhir Main */
   }
-  /* Akhir Responsive */
