@@ -12,6 +12,7 @@ header {
 }
 
 .header-left {
+  padding-left: 20px;
   float: left;
   color: white;
 }
@@ -21,6 +22,7 @@ header {
 }
 
 .header-right {
+  padding-right: 25px;
   float: right;
   margin-right: -25px;
 }
@@ -32,6 +34,7 @@ header {
   display: block;
   float: left;
   transition: all 0.5s;
+  font-family: cursive;
 }
 
 .header-right a:hover {
@@ -58,13 +61,18 @@ a {
   margin: 0 auto;
 }
 
+.container h2{
+  color: darkgoldenrod;
+}
+
 /* Bagian Main*/
 .top-wrapper {
   padding: 100px 0 100px 0;
-  background-image: url(https://images.unsplash.com/photo-1502239608882-93b729c6af43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+  background-image: url(image/Pexels.jpg);
   background-size: cover;
   color: white;
   text-align: center;
+  height: 650px;
 }
 
 
@@ -77,7 +85,6 @@ a {
 }
 
 .top-wrapper p {
-  
   margin-bottom: 3px;
 }
 
