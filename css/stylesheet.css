@@ -63,7 +63,7 @@ header .container .menu-icon {
 
 body {
   margin: 0;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 a {
