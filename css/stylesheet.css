@@ -204,7 +204,7 @@ a {
 /*Konten*/
 .konten{
   float: left;
-  padding: 50px;
+  padding: 30px 100px;
   font-family: 'Roboto', sans-serif;
   text-align: left;
 }
