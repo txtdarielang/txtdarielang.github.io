@@ -176,7 +176,7 @@ a {
 }
 
 .lesson-icon {
-  /* position: static; */
+  position: static;
 }
 
 .lesson-icon p {
@@ -188,7 +188,7 @@ a {
 }
 
 .image{
-  /* padding-bottom: 0.5px; */
+  padding-bottom: 0.5px;
 }
 
 .txt-contents {
