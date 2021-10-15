@@ -111,12 +111,12 @@ a {
 .lesson-wrapper {
   height: 500px;
   padding-bottom: 80px;
-  background-color: #f7f7f7;
+  background-color: rgb(56 56 56 / 90%);
   text-align: center;
 }
 
 .heading {
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 30px;
   color: black;
 }
@@ -126,29 +126,50 @@ a {
 }
 
 .lesson {
+  padding-top: 20px;
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 .lesson-icon {
-  position: relative;
+  position: static;
 }
 
 .lesson-icon p {
-  position: absolute;
   top: 90px;
   width: 100%;
-  color: white;
+  color: darkgoldenrod;
+  font-weight: bold;
+  padding-bottom: 0.5px;
+}
+
+.image{
+  padding-bottom: 0.5px;
 }
 
 .txt-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 0.5px;
   font-size: 15px;
   color: darkgoldenrod;
+  font-weight: bold;
 }
 
+
+/*Konten*/
+.konten{
+  float: left;
+  padding: 50px;
+  font-family:serif;
+  text-align: left;
+}
+
+.konten p{
+  font-family: cursive;
+  font-weight: normal;
+}
+/*Konten End*/
 
 .container {
   max-width: 1170px;
